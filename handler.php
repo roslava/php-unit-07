@@ -25,11 +25,21 @@ if (isset($_GET['action'])) {
     }
 }
 
+
 if (isset($_POST['action'])) {
     $action = trim($_POST['action']);
     switch ($action) {
         case 1:
             echo t7();
+            break;
+        case 2:
+            echo t8();
+            break;
+        case 3:
+            echo t9();
+            break;
+        case 4:
+            echo t10();
             break;
     }
 }
